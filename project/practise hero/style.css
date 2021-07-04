@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.AZ {
+    color: orange;
+    font-weight: 700;
+}
+
+#welcome {
+    display: flex;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    padding: 4%;
+    width: 50%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
+a:hover {
+    padding: 10px 40px;
+    cursor: pointer;
+    transition-delay: 0.1s all ease;
+}
